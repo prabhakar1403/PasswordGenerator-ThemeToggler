@@ -17,7 +17,7 @@ function App() {
     let pass ='';
     let str = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz'
     if(charAllowed){
-      str += '!@#$%&'
+      str += '!@#$%&^*_~`<>?\/!@#$%&'
     }
     if(numAllowed){
       str +='0123456789'
@@ -91,7 +91,7 @@ function App() {
               className='m-1'
             />
             <label htmlFor="symbol">
-              Character
+              Symbols
             </label>
           </div>
           <div className='flex flex-col items-center mb-10 mt-5 xs:hidden'>
@@ -129,7 +129,7 @@ function App() {
                 className='m-1'
               />
               <label htmlFor="symbol">
-                Character
+                Symbols
               </label>
             </div>
           </div>
